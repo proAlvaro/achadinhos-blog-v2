@@ -1,0 +1,180 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+#achadinhos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Estilo de cada item da lista (a ser adicionado via JS) */
+.achadinho-item {
+    background-color: var(--cor-branco);
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    border: 1px solid #eee;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.achadinho-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Estilos específicos para a página de achadinhos */
+
+.welcome-section, .aventura-section {
+    background-color: var(--cor-branco);
+    border: 2px solid var(--cor-borda);
+    padding: 2rem;
+    margin: 1.5rem auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+.aventura-section {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+    border-color: var(--cor-secundaria);
+}
+
+.aventura-section h2 {
+    color: var(--cor-branco);
+}
+
+.btn-aventura {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--cor-destaque);
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-aventura:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.achadinhos-title {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilos para a Hero Section */
+.hero-section {
+    background-image: linear-gradient(to right, #ffc3a0, #ffafbd);
+    padding: 4rem 2rem;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+}
+
+.hero-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-hero {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: var(--cor-titulo);
+    color: var(--cor-branco);
+    border-radius: 25px;
+    font-weight: 700;
+    transition: transform 0.2s;
+}
+
+.btn-hero:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para a Seção de Valores (Core Values) */
+.values-section {
+    padding: 2rem 0;
+}
+
+.values-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.value-card {
+    background-color: var(--card-color);
+    color: var(--cor-branco);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.value-card h3 {
+    color: var(--cor-branco);
+    font-size: 1.8rem;
+}
+
+.value-card a {
+    color: var(--cor-branco);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Estilos para a Seção de Achadinhos */
+#achadinhos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.achadinho-item {
+    background-color: var(--cor-branco);
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    border: 1px solid #eee;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.achadinho-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+} 

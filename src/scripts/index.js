@@ -1,0 +1,1 @@
+// Futuro código JavaScript para a página de achadinhos 
